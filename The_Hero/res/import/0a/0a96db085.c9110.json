@@ -1,0 +1,5083 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-hurt-01",
+      "texture": "56sdFNiMBN665bNVaEx7WV",
+      "rect": [
+        17,
+        12,
+        19,
+        24
+      ],
+      "offset": [
+        1.5,
+        -5.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_9",
+      "texture": "10YHYw1ppGZY7QsbpXAk8+",
+      "rect": [
+        4,
+        4,
+        23,
+        28
+      ],
+      "offset": [
+        -1,
+        -2
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_12",
+      "texture": "b3n/ODuRxFDZNl/YYj+0wx",
+      "rect": [
+        9,
+        15,
+        33,
+        22
+      ],
+      "offset": [
+        4,
+        -7.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "climb",
+    "_duration": 0.5,
+    "sample": 10,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "22e1ydS7hL5Jy2FSwNk4VF"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "b9V+NBUKxP5pfoaw8TynJv"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "faEfJT4fBHhKpJpsDYB9Xj"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "caBynMQ1NPmbEXKaTficU/"
+              }
+            },
+            {
+              "frame": 0.4,
+              "value": {
+                "__uuid__": "df1+JSok1Ijo8nyxRTFw8b"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "attack",
+    "_duration": 0.3333333333333333,
+    "sample": 12,
+    "speed": 1.25,
+    "wrapMode": 36,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "9dU7HO3KJNv4Awy2h40I3k"
+              }
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__uuid__": "433hfs/ldCfbknKEq2b1Ge"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "32T+g0TBhJxZYiUaNYxGqX"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__uuid__": "4dmLr7RCNOD7/CXu7/8+TF"
+              }
+            }
+          ]
+        },
+        "cc.BoxCollider": {
+          "offset": [
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 15.9,
+                "y": 18.1
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            }
+          ],
+          "size": [
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 53.7,
+                "height": 35.5
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_7",
+      "texture": "a9cqhHxnxEma4xzjSVm3gw",
+      "rect": [
+        6,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        2,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack2-00",
+      "texture": "23ut/r28xBXqfoO15OzEbx",
+      "rect": [
+        15,
+        10,
+        18,
+        26
+      ],
+      "offset": [
+        -1,
+        -4.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-smrslt-01",
+      "texture": "f1a4QpGGpNfpLJe7eobTGb",
+      "rect": [
+        14,
+        10,
+        24,
+        17
+      ],
+      "offset": [
+        1,
+        0
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crouch-01",
+      "texture": "eb21ghyx9EEo1Akf2r5ezG",
+      "rect": [
+        15,
+        14,
+        20,
+        22
+      ],
+      "offset": [
+        0,
+        -6.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack3-04",
+      "texture": "ffxw9Qum9D34IkvrfrFBWH",
+      "rect": [
+        0,
+        16,
+        34,
+        20
+      ],
+      "offset": [
+        -8,
+        -7.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_10",
+      "texture": "923giaHMlEAaUabVBqI53l",
+      "rect": [
+        8,
+        15,
+        32,
+        22
+      ],
+      "offset": [
+        2.5,
+        -7.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_5",
+      "texture": "aaYJb2vp5G1YYTEqf5eWzk",
+      "rect": [
+        6,
+        0,
+        24,
+        32
+      ],
+      "offset": [
+        3,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crouch-00",
+      "texture": "70iD7KdUBO6b0r+klRl+a2",
+      "rect": [
+        16,
+        15,
+        19,
+        21
+      ],
+      "offset": [
+        0.5,
+        -7
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack3-01",
+      "texture": "20AVoUpE1FEI8Ojxuu0Vqy",
+      "rect": [
+        20,
+        10,
+        20,
+        26
+      ],
+      "offset": [
+        5,
+        -4.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_5",
+      "texture": "7abVnYLjRB5phbIYTrI7QE",
+      "rect": [
+        1,
+        1,
+        21,
+        36
+      ],
+      "offset": [
+        -10,
+        -0.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_3",
+      "texture": "69XCWfww1CBK7QknUticqQ",
+      "rect": [
+        0,
+        0,
+        20,
+        33
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack2-05",
+      "texture": "572010o1pLeY7RCmQTsC+Q",
+      "rect": [
+        2,
+        14,
+        31,
+        22
+      ],
+      "offset": [
+        -7.5,
+        -6.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "walk",
+    "_duration": 0.9166666666666666,
+    "sample": 12,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "ed6/gL8GFGApFTFUZT76t6"
+              }
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__uuid__": "42fQ5L6cpJh4bvVIBlmB02"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "1b4z1uv21Fm7RxfhTyKpnG"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__uuid__": "5di/rcFOZFx569/eBHjwnl"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "68WtfAkB5AsJVisqtSCxy9"
+              }
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": {
+                "__uuid__": "42UlW19k9Ou4nqhqH+jzdy"
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__uuid__": "f9b2W5XuJEnohUriPgcKmI"
+              }
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": {
+                "__uuid__": "a6MVbs1NhHSrqHL7weaw46"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "c5gnYfQo5P5bDwlsQ0kPHU"
+              }
+            },
+            {
+              "frame": 0.75,
+              "value": {
+                "__uuid__": "6f43iYsf1I5IezIEsIiS1u"
+              }
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__uuid__": "29CDycUJpPE4x3CZKW0Xim"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crnr-clmb-00",
+      "texture": "edw/X8iGNO3LFUy3e8Xah1",
+      "rect": [
+        21,
+        6,
+        16,
+        29
+      ],
+      "offset": [
+        4,
+        -2
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_12",
+      "texture": "c2WZpHijRFM76YJZOROG/m",
+      "rect": [
+        2,
+        1,
+        17,
+        32
+      ],
+      "offset": [
+        -0.5,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_6",
+      "texture": "d89QZ7W5FNeKBOiBwT8nEs",
+      "rect": [
+        5,
+        0,
+        24,
+        32
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack1-02",
+      "texture": "c3xvTBhl5AHqcmUQAXMg03",
+      "rect": [
+        15,
+        0,
+        34,
+        36
+      ],
+      "offset": [
+        7,
+        0.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-jump-01",
+      "texture": "64X9lAbPtH+rSJ13olbUWL",
+      "rect": [
+        15,
+        14,
+        20,
+        22
+      ],
+      "offset": [
+        0,
+        -6.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "parallax-mountain-bg",
+      "texture": "28C6siIclDN58Xb+Q8VFPk",
+      "rect": [
+        0,
+        0,
+        272,
+        160
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        272,
+        160
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.TiledMapAsset",
+    "_name": "map",
+    "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<map version=\"1.2\" tiledversion=\"1.3.1\" orientation=\"orthogonal\" renderorder=\"right-down\" compressionlevel=\"0\" width=\"24\" height=\"24\" tilewidth=\"16\" tileheight=\"16\" infinite=\"0\" nextlayerid=\"4\" nextobjectid=\"1\">\r\n <tileset firstgid=\"1\" name=\"Tileset\" tilewidth=\"16\" tileheight=\"16\" tilecount=\"60\" columns=\"10\">\r\n  <image source=\"Tileset.png\" width=\"160\" height=\"96\"/>\r\n </tileset>\r\n <tileset firstgid=\"61\" name=\"TilesExamples\" tilewidth=\"16\" tileheight=\"16\" tilecount=\"390\" columns=\"26\">\r\n  <image source=\"TilesExamples.png\" width=\"416\" height=\"240\"/>\r\n </tileset>\r\n <tileset firstgid=\"451\" name=\"Trees\" tilewidth=\"16\" tileheight=\"16\" tilecount=\"128\" columns=\"16\">\r\n  <image source=\"Trees.png\" width=\"256\" height=\"128\"/>\r\n </tileset>\r\n <layer id=\"1\" name=\"wall\" width=\"24\" height=\"24\">\r\n  <data encoding=\"csv\">\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,\r\n146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,\r\n172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,\r\n206,207,208,209,210,208,205,205,205,205,205,205,205,205,205,205,206,207,208,206,207,208,209,210,\r\n142,142,142,142,142,142,117,142,142,142,142,142,142,142,142,142,142,142,142,142,142,117,142,142,\r\n142,142,142,142,142,142,142,142,142,142,142,117,142,142,142,142,142,117,145,142,142,142,142,142\r\n</data>\r\n </layer>\r\n <layer id=\"2\" name=\"item\" width=\"24\" height=\"24\">\r\n  <data encoding=\"csv\">\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,477,478,479,480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,493,494,495,496,497,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,509,510,511,512,513,0,0,0,0,0,0,0,0,0,501,502,503,504,0,0,0,\r\n0,0,0,525,526,527,528,529,0,0,0,0,0,0,0,0,0,517,518,519,520,0,0,0,\r\n0,0,0,541,542,543,544,0,0,0,0,0,0,0,0,0,0,533,534,535,536,0,0,0,\r\n0,0,0,557,558,559,560,0,0,0,0,0,0,0,0,0,0,549,550,551,552,0,0,0,\r\n0,0,0,573,574,575,576,0,0,0,0,0,0,0,0,0,0,565,566,567,568,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\r\n</data>\r\n </layer>\r\n</map>\r\n",
+    "textures": [
+      {
+        "__uuid__": "5d0T2FUOBCLrQvSAMxv8Uu"
+      },
+      {
+        "__uuid__": "76GgmtDTRDWKDr0amwSkry"
+      },
+      {
+        "__uuid__": "bfeMwelaNBIK41dhfHgTSv"
+      }
+    ],
+    "textureNames": [
+      "Tileset.png",
+      "TilesExamples.png",
+      "Trees.png"
+    ]
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "idle",
+    "_duration": 0.4,
+    "sample": 10,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "a7bMxFHJxP84zu716YkcMP"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "bfePHuLYNCYYz9Gd/l2zFj"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "caieE0G6JPtJE+6HkaV274"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "601f7x26dAeqV/fNyix2W9"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "jump",
+    "_duration": 0.3,
+    "sample": 10,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "36XkcrON5PPIkAWfiML18T"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "686sDPeBFKLrA4VZpJSSnd"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "c1cKrThJVNxbwVPi6stzNX"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_6",
+      "texture": "fcM3Ek1ZhAsYa/4UeM+87Z",
+      "rect": [
+        0,
+        1,
+        22,
+        32
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_2",
+      "texture": "2fA2lVDoRE+ralsZmjl/6d",
+      "rect": [
+        1,
+        1,
+        18,
+        32
+      ],
+      "offset": [
+        -1,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "parallax-mountain-montain-far",
+      "texture": "a8daZA6NZPLIrTTkoSk4BA",
+      "rect": [
+        0,
+        77,
+        272,
+        83
+      ],
+      "offset": [
+        0,
+        -38.5
+      ],
+      "originalSize": [
+        272,
+        160
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack1-01",
+      "texture": "ecZVW0LhBFq7tid2nPvrmK",
+      "rect": [
+        8,
+        16,
+        25,
+        20
+      ],
+      "offset": [
+        -4.5,
+        -7.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_8",
+      "texture": "23Nb4hJ/tJlK6hi/3Z0UxR",
+      "rect": [
+        10,
+        18,
+        31,
+        19
+      ],
+      "offset": [
+        4,
+        -9
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack1-04",
+      "texture": "adRmLpGcBMSb1xyxdZZj6X",
+      "rect": [
+        15,
+        4,
+        19,
+        32
+      ],
+      "offset": [
+        -0.5,
+        -1.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "attack3",
+    "_duration": 0.5,
+    "sample": 12,
+    "speed": 1.25,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "18HYKrwfhHtqQpzz1jfZ3O"
+              }
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__uuid__": "18HYKrwfhHtqQpzz1jfZ3O"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "5cAg2/y/xBLKOm2rZJuGlv"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__uuid__": "f92a0KTXBIZrerKmXgps3D"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "13ZVAWADhMhbW6KpxCzWF8"
+              }
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": {
+                "__uuid__": "4fYIigcwdPI47+gSo3Mb1X"
+              }
+            }
+          ]
+        },
+        "cc.BoxCollider": {
+          "offset": [
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 12.7,
+                "y": 11.5
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            }
+          ],
+          "size": [
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 73.6,
+                "height": 23
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack3-05",
+      "texture": "b8t+r+L91MWKAtmBO+UdrC",
+      "rect": [
+        0,
+        16,
+        34,
+        20
+      ],
+      "offset": [
+        -8,
+        -7.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-hurt-00",
+      "texture": "61mFRRkzlPToGhgYyQcrVD",
+      "rect": [
+        16,
+        12,
+        21,
+        24
+      ],
+      "offset": [
+        1.5,
+        -5.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_11",
+      "texture": "d66MrLoQJBt4a+QoYK8vpk",
+      "rect": [
+        4,
+        16,
+        25,
+        16
+      ],
+      "offset": [
+        0,
+        -8
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_6",
+      "texture": "0eSbwHQ2BIwqVfx0QHlef+",
+      "rect": [
+        6,
+        0,
+        23,
+        32
+      ],
+      "offset": [
+        2.5,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "hurt",
+    "_duration": 0.4,
+    "sample": 10,
+    "wrapMode": 36,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "4fcPsvGURDN7gToPJy9XBI"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "01f+5T4SxJMb3Fk/IKfwMp"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "cdMTBMDZRPX5P9sDLZVGFq"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "75lMoWWKtByrg+kxqyfVVM"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "die",
+    "_duration": 0.5333333333333333,
+    "sample": 15,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "75lMoWWKtByrg+kxqyfVVM"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "cdMTBMDZRPX5P9sDLZVGFq"
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__uuid__": "01f+5T4SxJMb3Fk/IKfwMp"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "4fcPsvGURDN7gToPJy9XBI"
+              }
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": {
+                "__uuid__": "6avdgOkOBAjJmaezGXjj/z"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "dbLMes/wdKV5guh/TLkw83"
+              }
+            },
+            {
+              "frame": 0.4,
+              "value": {
+                "__uuid__": "c6YycC/FhDsJIbuKEtXRJL"
+              }
+            },
+            {
+              "frame": 0.4666666666666667,
+              "value": {
+                "__uuid__": "73qfJZndZBeJC6NL8Uy5b5"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_10",
+      "texture": "5cIrTHEUVOl7E+ua1AVxsq",
+      "rect": [
+        4,
+        7,
+        24,
+        25
+      ],
+      "offset": [
+        -0.5,
+        -3.5
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "airborne",
+    "_duration": 0.4,
+    "sample": 15,
+    "speed": 1.35,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "9dU7HO3KJNv4Awy2h40I3k"
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__uuid__": "433hfs/ldCfbknKEq2b1Ge"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "32T+g0TBhJxZYiUaNYxGqX"
+              }
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": {
+                "__uuid__": "d6yv9nKtNFV7RcVqJ+5ZQ+"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "4dmLr7RCNOD7/CXu7/8+TF"
+              }
+            }
+          ]
+        },
+        "cc.BoxCollider": {
+          "offset": [
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 7.2,
+                "y": 18.1
+              }
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            }
+          ],
+          "size": [
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 32.4,
+                "height": 35.9
+              }
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack3-02",
+      "texture": "4cfKKto+BIaYisMYjSg4Pe",
+      "rect": [
+        2,
+        13,
+        48,
+        23
+      ],
+      "offset": [
+        1,
+        -6
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_4",
+      "texture": "7e2FOa1xdJrIvE/GqglWTL",
+      "rect": [
+        0,
+        0,
+        21,
+        33
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-run3-00",
+      "texture": "24dzDgI5RI/p0y7Pq/oSZi",
+      "rect": [
+        12,
+        8,
+        24,
+        28
+      ],
+      "offset": [
+        -1,
+        -3.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-idle-2-01",
+      "texture": "c1E/0R/v9LGa8ST+7A6mm5",
+      "rect": [
+        10,
+        9,
+        23,
+        27
+      ],
+      "offset": [
+        -3.5,
+        -4
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_5",
+      "texture": "d0NDNfGopKMri38KMIXVRL",
+      "rect": [
+        0,
+        0,
+        22,
+        33
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-jump-00",
+      "texture": "ddaoIuQpZEE585vWQ4LeAB",
+      "rect": [
+        15,
+        12,
+        20,
+        24
+      ],
+      "offset": [
+        0,
+        -5.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-die-03",
+      "texture": "6ej9+m6utE8L5EtpnXKtuC",
+      "rect": [
+        16,
+        14,
+        22,
+        22
+      ],
+      "offset": [
+        2,
+        -6.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_2",
+      "texture": "237oaT335B/7Dwg4eo/3uf",
+      "rect": [
+        7,
+        0,
+        23,
+        32
+      ],
+      "offset": [
+        2,
+        0
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Idle_5",
+      "texture": "9fp+EqBkBMV5hme2jT1dD7",
+      "rect": [
+        2,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        1,
+        0
+      ],
+      "originalSize": [
+        24,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Idle_3",
+      "texture": "29SJidu9dCpKV2YPuzceQ4",
+      "rect": [
+        0,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        24,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_11",
+      "texture": "28vkzvxKhPx71CiJS+LIxq",
+      "rect": [
+        2,
+        1,
+        18,
+        32
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-die-06",
+      "texture": "c3RaQVX8tGsbZl1yqvSWhu",
+      "rect": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "offset": [
+        2,
+        -8.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Idle_0",
+      "texture": "4dRsYJxV9BK4BnYq/MLDIg",
+      "rect": [
+        0,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        24,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-hurt-02",
+      "texture": "f6dehyFABBALsxiEIOrmic",
+      "rect": [
+        15,
+        12,
+        19,
+        24
+      ],
+      "offset": [
+        -0.5,
+        -5.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_14",
+      "texture": "2c4ak7AO9HSroohVov8bgP",
+      "rect": [
+        6,
+        7,
+        27,
+        30
+      ],
+      "offset": [
+        -2,
+        -3.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Idle_4",
+      "texture": "cfgEcSMFpLT5XTjS3RvDPB",
+      "rect": [
+        1,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        24,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack2-02",
+      "texture": "f9O3ijpmZEqaDDNBOTdU1M",
+      "rect": [
+        13,
+        9,
+        20,
+        27
+      ],
+      "offset": [
+        -2,
+        -4
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_7",
+      "texture": "17nS9+0rxHEa0WX22uNsZq",
+      "rect": [
+        3,
+        1,
+        40,
+        36
+      ],
+      "offset": [
+        1.5,
+        -0.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Idle_2",
+      "texture": "20lffJg9NHw6KlujbRQmHi",
+      "rect": [
+        0,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        24,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-smrslt-03",
+      "texture": "7e+0HZTIZPfIujlcioei3Y",
+      "rect": [
+        11,
+        13,
+        26,
+        17
+      ],
+      "offset": [
+        -1,
+        -3
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-fall-01",
+      "texture": "6a8b8e4oRPmYhBOhklasrr",
+      "rect": [
+        18,
+        2,
+        17,
+        30
+      ],
+      "offset": [
+        1.5,
+        1.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_4",
+      "texture": "adBdkFVOtHDbTuXJ0j9gjV",
+      "rect": [
+        4,
+        0,
+        18,
+        37
+      ],
+      "offset": [
+        -8.5,
+        0
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "game",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          480,
+          320,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_id": "122PjecNBEGqdEeD6xPj0s"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_clearFlags": 7,
+          "_depth": -1
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          530.007568359375,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bg",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 5
+        },
+        {
+          "__id__": 13
+        },
+        {
+          "__id__": 16
+        },
+        {
+          "__id__": 18
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 4
+          },
+          "_alignFlags": 45
+        },
+        {
+          "__type__": "c01a7KtgCtFVZeWWHRHAzDC",
+          "node": {
+            "__id__": 4
+          },
+          "mapNode": {
+            "__id__": 13
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 480,
+        "height": 320
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "background_view",
+      "_parent": {
+        "__id__": 4
+      },
+      "_children": [
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 7
+        },
+        {
+          "__id__": 8
+        },
+        {
+          "__id__": 9
+        },
+        {
+          "__id__": 10
+        },
+        {
+          "__id__": 11
+        },
+        {
+          "__id__": 12
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 480,
+        "height": 320
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "parallax-mountain-bg",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 6
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "3bhvJ9IalLg77NYYe+Z18H"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 6
+          },
+          "_alignFlags": 41,
+          "_originalWidth": 272,
+          "_originalHeight": 160
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 274.2857142857143,
+        "height": 160
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.75,
+          1.75,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "City Background",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 7
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "ae62z3RQxDpac6OnUNGx5u"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1120,
+        "height": 613
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          -61.215999603271484,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.4000000059604645,
+          0.4000000059604645,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "City Foreground",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 8
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "c51t7trbNGSJtpO11GFilL"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1120,
+        "height": 504
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          -1.2719999551773071,
+          -54.93000030517578,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.4000000059604645,
+          0.4000000059604645,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "parallax-mountain-montain-far",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 9
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "43vjNPfDdMZJVb3kzH+6VE"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 272,
+        "height": 83
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          35.53900146484375,
+          -63.04499816894531,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "parallax-mountain-mountains",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 10
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "f3o7JdbFJFZIH9XQFt7cci"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 544,
+        "height": 90
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          -73.91300201416016,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.8799999952316284,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "parallax-mountain-trees",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 11
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "8abUA2hOJHsZEctJMfL9zb"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 544,
+        "height": 46
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          -94.36699676513672,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.8809999823570251,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "parallax-mountain-foreground-trees",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 12
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "d1ff1DnIpGybnxbB1OtzxL"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 506,
+        "height": 55
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          2.3289999961853027,
+          -71.7249984741211,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.8399999737739563,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "game_map",
+      "_parent": {
+        "__id__": 4
+      },
+      "_children": [
+        {
+          "__id__": 14
+        },
+        {
+          "__id__": 15
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.TiledMap",
+          "node": {
+            "__id__": 13
+          },
+          "_tmxFile": {
+            "__uuid__": "3dRcxtRlVOk7WPTTKJzin2"
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 13
+          },
+          "_alignFlags": 12
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 384,
+        "height": 384
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          -240,
+          -160,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "wall",
+      "_parent": {
+        "__id__": 13
+      },
+      "_components": [
+        {
+          "__type__": "cc.TiledLayer",
+          "node": {
+            "__id__": 14
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            },
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ]
+        },
+        {
+          "__type__": "cc.RigidBody",
+          "node": {
+            "__id__": 14
+          },
+          "_type": 0
+        },
+        {
+          "__type__": "cc.PhysicsBoxCollider",
+          "node": {
+            "__id__": 14
+          },
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": 192,
+            "y": 24
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 384,
+            "height": 48
+          }
+        },
+        {
+          "__type__": "cc.PhysicsBoxCollider",
+          "node": {
+            "__id__": 14
+          },
+          "tag": 99,
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": 8.2,
+            "y": 132
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 16.5,
+            "height": 264
+          }
+        },
+        {
+          "__type__": "cc.PhysicsBoxCollider",
+          "node": {
+            "__id__": 14
+          },
+          "tag": 99,
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": 376,
+            "y": 128.3
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 16,
+            "height": 256.6
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 14
+          },
+          "_alignFlags": 44,
+          "_originalWidth": 384
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 307.2,
+        "height": 384
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.25,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 2,
+      "groupIndex": 2
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "item",
+      "_parent": {
+        "__id__": 13
+      },
+      "_components": [
+        {
+          "__type__": "cc.TiledLayer",
+          "node": {
+            "__id__": 15
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ]
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 384,
+        "height": 384
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          137.56700134277344,
+          -0.4560000002384186,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "hero",
+      "_parent": {
+        "__id__": 4
+      },
+      "_children": [
+        {
+          "__id__": 17
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.RigidBody",
+          "node": {
+            "__id__": 16
+          },
+          "_fixedRotation": true,
+          "enabledContactListener": true
+        },
+        {
+          "__type__": "cc.PhysicsBoxCollider",
+          "node": {
+            "__id__": 16
+          },
+          "tag": 2,
+          "_restitution": 0.1,
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": 2.1,
+            "y": 0.9
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 17.7,
+            "height": 2
+          }
+        },
+        {
+          "__type__": "231d5op91FC3aMAQmTr0tEZ",
+          "node": {
+            "__id__": 16
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          -123.02100372314453,
+          -112.61499786376953,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 4,
+      "groupIndex": 4
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "body",
+      "_parent": {
+        "__id__": 16
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 17
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a7bMxFHJxP84zu716YkcMP"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 17
+          },
+          "_defaultClip": {
+            "__uuid__": "3d/g+6+hVGhpqiJATiSHnh"
+          },
+          "_clips": [
+            {
+              "__uuid__": "3d/g+6+hVGhpqiJATiSHnh"
+            },
+            {
+              "__uuid__": "9bDMD5E0JPG5fQojv+0Hqt"
+            },
+            {
+              "__uuid__": "055lRmidZNpr3ITvL4NS0r"
+            },
+            {
+              "__uuid__": "adPSoQuZ9HnKKMUY7BNo1W"
+            },
+            {
+              "__uuid__": "4et4boL5RLR5Gw0oGVXZFX"
+            },
+            {
+              "__uuid__": "f6kXT5dbhMMYh04LJD8xnW"
+            },
+            {
+              "__uuid__": "3eM4oMAy1N/L4Z3Ua6DvLA"
+            },
+            {
+              "__uuid__": "5aQEnDf+dHQb+P1XD9P9B7"
+            },
+            {
+              "__uuid__": "54QEBvf/hEeKgV0OCKEhbx"
+            },
+            {
+              "__uuid__": "50yvTT7ZFCFbuPtzF9+mco"
+            },
+            {
+              "__uuid__": "dcpq45UzhPxb92L0pn9dIN"
+            },
+            {
+              "__uuid__": "04o6DTccxJ6ITRFSPBzj7F"
+            },
+            {
+              "__uuid__": "baISfBP5VGo69oDR2/l9ZG"
+            }
+          ],
+          "playOnLoad": true
+        },
+        {
+          "__type__": "cc.BoxCollider",
+          "node": {
+            "__id__": 17
+          },
+          "tag": 1,
+          "_size": {
+            "__type__": "cc.Size"
+          }
+        },
+        {
+          "__type__": "cc.BoxCollider",
+          "node": {
+            "__id__": 17
+          },
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": 0.1,
+            "y": 13.5
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 22.7,
+            "height": 27
+          }
+        },
+        {
+          "__type__": "4453dGRNfVLI6AEYHOYHt5S",
+          "node": {
+            "__id__": 17
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 23,
+        "height": 27
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.5
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 1,
+      "groupIndex": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "enemy",
+      "_parent": {
+        "__id__": 4
+      },
+      "_children": [
+        {
+          "__id__": 19
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.RigidBody",
+          "node": {
+            "__id__": 18
+          },
+          "_fixedRotation": true
+        },
+        {
+          "__type__": "cc.PhysicsBoxCollider",
+          "node": {
+            "__id__": 18
+          },
+          "_restitution": 0.1,
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": -1.2,
+            "y": 1.4
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 16.6,
+            "height": 2.9
+          }
+        },
+        {
+          "__type__": "1fd94ULjlJEvLLImaB5ECAh",
+          "node": {
+            "__id__": 18
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          73.20099639892578,
+          -112.43499755859375,
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 4,
+      "groupIndex": 4
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "body",
+      "_parent": {
+        "__id__": 18
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 19
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "74OmFMxyJN9ZP3WGReFyrC"
+          }
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 19
+          },
+          "_clips": [
+            {
+              "__uuid__": "f8fkvvV51OOI/jic+e6Frn"
+            },
+            {
+              "__uuid__": "913qteMJdEAqUXxnKoqGHs"
+            },
+            {
+              "__uuid__": "be0I7dAJxCyovi9GIDZheF"
+            },
+            {
+              "__uuid__": "1f2RVEj7lGQp6oXPGA7Ws8"
+            },
+            {
+              "__uuid__": "dezIZo+2NMO4FqMmKd9x0t"
+            }
+          ]
+        },
+        {
+          "__type__": "cc.BoxCollider",
+          "node": {
+            "__id__": 19
+          },
+          "_offset": {
+            "__type__": "cc.Vec2",
+            "x": -4.3,
+            "y": 12.7
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 12.9,
+            "height": 24.9
+          }
+        },
+        {
+          "__type__": "5f909NKvwxHF5bZUlDMzsyD",
+          "node": {
+            "__id__": 19
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 22,
+        "height": 32
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.5
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float32Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 3,
+      "groupIndex": 3
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_2",
+      "texture": "4cEqG3hiNMQ5/vzzBxUP/y",
+      "rect": [
+        2,
+        0,
+        23,
+        32
+      ],
+      "offset": [
+        -1.5,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "parallax-mountain-trees",
+      "texture": "d9d1jitKxFKJdo8u/E7Gx0",
+      "rect": [
+        0,
+        114,
+        544,
+        46
+      ],
+      "offset": [
+        0,
+        -57
+      ],
+      "originalSize": [
+        544,
+        160
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "idle",
+    "_duration": 0.3333333333333333,
+    "sample": 30,
+    "wrapMode": 22,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "6ffoYpgixDgYVstNtHKtJL"
+              }
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__uuid__": "6ffoYpgixDgYVstNtHKtJL"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "6ffoYpgixDgYVstNtHKtJL"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "74OmFMxyJN9ZP3WGReFyrC"
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__uuid__": "b89212305Fv5yl92Jby4m4"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "7ckYgUS4NGpLsg4A0O8vpj"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "6fvdFPmp1B9beOsZuxK1fF"
+              }
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": {
+                "__uuid__": "799VUzVdxMorNdPmu4LC6y"
+              }
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": {
+                "__uuid__": "799VUzVdxMorNdPmu4LC6y"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "799VUzVdxMorNdPmu4LC6y"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_3",
+      "texture": "9bBoITDNFDpZ3FDHOZzB4a",
+      "rect": [
+        0,
+        0,
+        24,
+        32
+      ],
+      "offset": [
+        -3,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-fall-00",
+      "texture": "79W3QBT45EDZ1VQAnrN61x",
+      "rect": [
+        18,
+        1,
+        17,
+        31
+      ],
+      "offset": [
+        1.5,
+        2
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "run",
+    "_duration": 0.6,
+    "sample": 10,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "5f0IXEdvZDa7J6P7B1RhCe"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "f1wCxqBbBK15TBI2AqpsOx"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "f5MIyPhEFI2K0olMSaIB4o"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "fdkz92AjxLhLkRuC2EyVB5"
+              }
+            },
+            {
+              "frame": 0.4,
+              "value": {
+                "__uuid__": "c7rGPdAo9KjIL1MzYBXbqo"
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__uuid__": "e9ZYB/H65HeLKPIoPux2Wj"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack1-00",
+      "texture": "5acBiuSg5Fx57saT2lv2zS",
+      "rect": [
+        7,
+        14,
+        27,
+        22
+      ],
+      "offset": [
+        -4.5,
+        -6.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_11",
+      "texture": "98qcska1BE9qIQbLpDyQq2",
+      "rect": [
+        9,
+        15,
+        32,
+        22
+      ],
+      "offset": [
+        3.5,
+        -7.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_9",
+      "texture": "2cdqBWyCFNs554m/wKrRms",
+      "rect": [
+        0,
+        1,
+        22,
+        32
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-idle-2-00",
+      "texture": "daS6v+21FIEoQ1Ah+qzHHP",
+      "rect": [
+        10,
+        9,
+        23,
+        27
+      ],
+      "offset": [
+        -3.5,
+        -4
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "attack2",
+    "_duration": 0.5,
+    "sample": 12,
+    "speed": 1.25,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "7bL486TftCnoI2dnkVYZQB"
+              }
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__uuid__": "0e+rCny0BLLZvfzHtWxaAd"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "ca10qdu19JErOjZP9nPWVd"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__uuid__": "e8VXrT0TpL2YPKjv7+USVg"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "efJ6GrPwROKrFOFJtGJps/"
+              }
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": {
+                "__uuid__": "1dT5Y1YnJCu5bAYmbJzRwp"
+              }
+            }
+          ]
+        },
+        "cc.BoxCollider": {
+          "offset": [
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 17.6,
+                "y": 14.7
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2"
+              }
+            }
+          ],
+          "size": [
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 50.2,
+                "height": 28.3
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Size"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "City Background",
+      "texture": "44L6jseJ5FtZxiYnJ0D6L3",
+      "rect": [
+        0,
+        187,
+        1120,
+        613
+      ],
+      "offset": [
+        0,
+        -93.5
+      ],
+      "originalSize": [
+        1120,
+        800
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_1",
+      "texture": "dfVfdX+FlC0pJT01sK3QbE",
+      "rect": [
+        6,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        2,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_6",
+      "texture": "41R+l/yFpKIZzbMp446G+T",
+      "rect": [
+        0,
+        4,
+        22,
+        33
+      ],
+      "offset": [
+        -10.5,
+        -2
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_7",
+      "texture": "1eLGitb8xPg65LytHwfdvC",
+      "rect": [
+        5,
+        0,
+        24,
+        32
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_3",
+      "texture": "e5L+fvOxJMt4D0lqeu5a9Y",
+      "rect": [
+        5,
+        0,
+        24,
+        32
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_12",
+      "texture": "38SJdMLCJOnJyb2YEPpv7B",
+      "rect": [
+        0,
+        24,
+        30,
+        8
+      ],
+      "offset": [
+        -1.5,
+        -12
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Idle_1",
+      "texture": "0bcBjP9RRLIIaFObz2CHiT",
+      "rect": [
+        0,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        24,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crnr-clmb-01",
+      "texture": "44e7Cc7pxDdaMNF4dxEars",
+      "rect": [
+        21,
+        7,
+        15,
+        26
+      ],
+      "offset": [
+        3.5,
+        -1.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "fall",
+    "_duration": 0.2,
+    "sample": 10,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "95epgXycBN66dPexDchupT"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "80CftwkixBcLWY8jzPOaLs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "die",
+    "_objFlags": 1,
+    "_duration": 0.7333333333333333,
+    "sample": 15,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "cdMTBMDZRPX5P9sDLZVGFq"
+              }
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": {
+                "__uuid__": "cep3CxP3dIO7KXtKkE9HeL"
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__uuid__": "6bTT5YMN5KW7PX1ZUABoHp"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "b6ay7W2jtCLo63HOz3F6Oa"
+              }
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": {
+                "__uuid__": "2aOxn1kUdHxr1nqiSOnZp8"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "b5AccPuXxE+Z1fBTSQit95"
+              }
+            },
+            {
+              "frame": 0.4,
+              "value": {
+                "__uuid__": "f4ZOnszGBBvpb4ryg3qkOw"
+              }
+            },
+            {
+              "frame": 0.4666666666666667,
+              "value": {
+                "__uuid__": "03DU+CA7NJOa1oN+Pp1NKD"
+              }
+            },
+            {
+              "frame": 0.5333333333333333,
+              "value": {
+                "__uuid__": "58Z1sfKOVBHokyrO4WSpCE"
+              }
+            },
+            {
+              "frame": 0.6,
+              "value": {
+                "__uuid__": "4fgRB1yABM8bw6CxQ5l4+G"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "b7hiR4ZmxI/abfnz0Q5SMx"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-idle-2-02",
+      "texture": "1cfUokN+BIY7Nk+OQdgXH/",
+      "rect": [
+        9,
+        8,
+        25,
+        28
+      ],
+      "offset": [
+        -3.5,
+        -3.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-jump-02",
+      "texture": "f7HE0hXthAHZQ8cZvFS4RD",
+      "rect": [
+        17,
+        7,
+        19,
+        27
+      ],
+      "offset": [
+        1.5,
+        -2
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_13",
+      "texture": "7220MeD39I37fnoSRULCKZ",
+      "rect": [
+        7,
+        15,
+        32,
+        22
+      ],
+      "offset": [
+        1.5,
+        -7.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_10",
+      "texture": "dfeBZoF3FHaoGxvvBijN0Y",
+      "rect": [
+        1,
+        1,
+        20,
+        32
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "City Foreground",
+      "texture": "d9BEszGO5OuY35laGipMwv",
+      "rect": [
+        0,
+        296,
+        1120,
+        504
+      ],
+      "offset": [
+        0,
+        -148
+      ],
+      "originalSize": [
+        1120,
+        800
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-die-05",
+      "texture": "c4mvWeVdZCsYirJMQc8pNX",
+      "rect": [
+        21,
+        19,
+        15,
+        17
+      ],
+      "offset": [
+        3.5,
+        -9
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-run3-04",
+      "texture": "4fpikyVrdGQ4QbY+Xr7WFU",
+      "rect": [
+        13,
+        9,
+        23,
+        27
+      ],
+      "offset": [
+        -0.5,
+        -4
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Hit_0",
+      "texture": "c8KHTcx2dMU7Ah/G55LBsO",
+      "rect": [
+        6,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        2,
+        0
+      ],
+      "originalSize": [
+        30,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crnr-clmb-03",
+      "texture": "69mUzzq8tBQrFBawHBwBg7",
+      "rect": [
+        21,
+        6,
+        14,
+        24
+      ],
+      "offset": [
+        3,
+        0.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-idle-2-03",
+      "texture": "6f6RPExFdFt7KjKzD4OWBp",
+      "rect": [
+        9,
+        8,
+        25,
+        28
+      ],
+      "offset": [
+        -3.5,
+        -3.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack2-01",
+      "texture": "c9Qojs8EhDorBiPXy1egdr",
+      "rect": [
+        15,
+        9,
+        18,
+        27
+      ],
+      "offset": [
+        -1,
+        -4
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_0",
+      "texture": "50I81w+4ZMOqwmK+cTroVj",
+      "rect": [
+        11,
+        0,
+        22,
+        32
+      ],
+      "offset": [
+        5.5,
+        0
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_1",
+      "texture": "2dQR6QL7pBfIqYBeRnMPCd",
+      "rect": [
+        8,
+        0,
+        23,
+        32
+      ],
+      "offset": [
+        3,
+        0
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "parallax-mountain-foreground-trees",
+      "texture": "feaXyptwdDjqz11oySp+r/",
+      "rect": [
+        22,
+        105,
+        506,
+        55
+      ],
+      "offset": [
+        3,
+        -52.5
+      ],
+      "originalSize": [
+        544,
+        160
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack1-03",
+      "texture": "97KayuN7dGcqfYPcF9GwTA",
+      "rect": [
+        15,
+        0,
+        27,
+        36
+      ],
+      "offset": [
+        3.5,
+        0.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-die-04",
+      "texture": "82jmuGjchEFLwE9w5R6ty2",
+      "rect": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "offset": [
+        2,
+        -8.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "backroll",
+    "_duration": 0.4,
+    "sample": 10,
+    "wrapMode": 36,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "f6igN4B6FNSZq+Aud1g6/H"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "0fgRfoBL1DKLi1WkU3AACq"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "f4gZ9AW05LZrUghPnuuuvo"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "7fUzftCelF46+/B4P+5qTi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "attack",
+    "_duration": 0.48,
+    "sample": 25,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "e6gzYCrIxK7LxTOvZjZxkb"
+              }
+            },
+            {
+              "frame": 0.04,
+              "value": {
+                "__uuid__": "81NGCfxzxEzJpun9j+bzRW"
+              }
+            },
+            {
+              "frame": 0.08,
+              "value": {
+                "__uuid__": "18zHZpthlFRr3mVRVBh9jS"
+              }
+            },
+            {
+              "frame": 0.12,
+              "value": {
+                "__uuid__": "b1L3RC+7lM6qNwBiifJFCt"
+              }
+            },
+            {
+              "frame": 0.16,
+              "value": {
+                "__uuid__": "7bU3dDJFJN+YYX1UBh8XVc"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "45sG31BIFGgql5y6mWH4Ym"
+              }
+            },
+            {
+              "frame": 0.24,
+              "value": {
+                "__uuid__": "f7l+yACLVGuIHv21H7bry6"
+              }
+            },
+            {
+              "frame": 0.28,
+              "value": {
+                "__uuid__": "13hKGwxQFJh7ayhEpmjfgC"
+              }
+            },
+            {
+              "frame": 0.32,
+              "value": {
+                "__uuid__": "9fGAQIDVROua7K88Jy0SHe"
+              }
+            },
+            {
+              "frame": 0.36,
+              "value": {
+                "__uuid__": "04kKN/QUJJ24F/hV09fQXd"
+              }
+            },
+            {
+              "frame": 0.4,
+              "value": {
+                "__uuid__": "c3smBONz1LRIAXjL+xee1a"
+              }
+            },
+            {
+              "frame": 0.44,
+              "value": {
+                "__uuid__": "76jdgfW+9Fu7kQc5uQ05x4"
+              }
+            }
+          ]
+        },
+        "cc.BoxCollider": {
+          "offset": [
+            {
+              "frame": 0.12,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": -4.8,
+                "y": 12.9
+              }
+            },
+            {
+              "frame": 0.16,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 14.9,
+                "y": 18.1
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": -4.8,
+                "y": 12.9
+              }
+            }
+          ],
+          "size": [
+            {
+              "frame": 0.12,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 5.6,
+                "height": 24.9
+              }
+            },
+            {
+              "frame": 0.16,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 33.3,
+                "height": 36
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__type__": "cc.Size",
+                "width": 5.6,
+                "height": 24.9
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crnr-clmb-04",
+      "texture": "e8PTrsme9GZ7lm4Y9XOKsn",
+      "rect": [
+        21,
+        6,
+        15,
+        24
+      ],
+      "offset": [
+        3.5,
+        0.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_0",
+      "texture": "53mC/Tt/lFUol2SmiJOReh",
+      "rect": [
+        3,
+        5,
+        22,
+        32
+      ],
+      "offset": [
+        -7.5,
+        -2.5
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack2-03",
+      "texture": "44IQfIp8dD9YRKE35bup8K",
+      "rect": [
+        10,
+        7,
+        37,
+        29
+      ],
+      "offset": [
+        3.5,
+        -3
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-run3-05",
+      "texture": "f7HKqUTi1HMLOGc3WqhVZc",
+      "rect": [
+        14,
+        11,
+        22,
+        25
+      ],
+      "offset": [
+        0,
+        -5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_1",
+      "texture": "90ggepF2RJ/qS4pLc9XsQK",
+      "rect": [
+        1,
+        1,
+        18,
+        32
+      ],
+      "offset": [
+        -1,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack2-04",
+      "texture": "969uUxmaZM+YW8noZYN07m",
+      "rect": [
+        2,
+        15,
+        32,
+        21
+      ],
+      "offset": [
+        -7,
+        -7
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-run3-01",
+      "texture": "1aT7VMSEhFSbEamO/uWSRA",
+      "rect": [
+        13,
+        9,
+        23,
+        27
+      ],
+      "offset": [
+        -0.5,
+        -4
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "parallax-mountain-mountains",
+      "texture": "8crguMjVBLLYrDISqMFbSx",
+      "rect": [
+        0,
+        70,
+        544,
+        90
+      ],
+      "offset": [
+        0,
+        -35
+      ],
+      "originalSize": [
+        544,
+        160
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Dead_8",
+      "texture": "cbD/lZxQFHU5/1zhV5Zqr+",
+      "rect": [
+        5,
+        1,
+        23,
+        31
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        33,
+        32
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-smrslt-02",
+      "texture": "b00s/pMiBKbqUph6iQNrpr",
+      "rect": [
+        20,
+        10,
+        18,
+        21
+      ],
+      "offset": [
+        4,
+        -2
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-run3-02",
+      "texture": "c0YP7cRlNLRZ4Kyd8aerbL",
+      "rect": [
+        13,
+        11,
+        23,
+        25
+      ],
+      "offset": [
+        -0.5,
+        -5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-smrslt-00",
+      "texture": "6bgJjnxyhMa6V/+yc9CfQg",
+      "rect": [
+        18,
+        7,
+        15,
+        21
+      ],
+      "offset": [
+        0.5,
+        1
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "crouch",
+    "_duration": 0.2,
+    "sample": 10,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "12GA6SkiZGtrGK5b0HAWFB"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "15pOpG1MtEkZbQvufuv5ZY"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Attack_9",
+      "texture": "c5MmTra2lEV7/Srpls1VuV",
+      "rect": [
+        8,
+        16,
+        32,
+        21
+      ],
+      "offset": [
+        2.5,
+        -8
+      ],
+      "originalSize": [
+        43,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "hit",
+    "_duration": 0.35,
+    "sample": 20,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "c9rFIIDc9FT41ZlnqEePnI"
+              }
+            },
+            {
+              "frame": 0.05,
+              "value": {
+                "__uuid__": "b0URiHG9JAhpiuySYb7e4t"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "89Zfij5T1AbZGawIkBocw5"
+              }
+            },
+            {
+              "frame": 0.15,
+              "value": {
+                "__uuid__": "918wWfptxKdaq0Exq4JZTs"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "15iSGNDQFMfKoywua8Var6"
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__uuid__": "4fxVcqVVFJzZmD1PjiVClv"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "0687QDKV5FkoiAY8Qqhcki"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Skeleton_Walk_8",
+      "texture": "4et3dch2JMxr9/K0XVJrYz",
+      "rect": [
+        0,
+        1,
+        22,
+        32
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        22,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-attack3-03",
+      "texture": "3cNblNOGtFiptkl9yhHwWQ",
+      "rect": [
+        3,
+        17,
+        31,
+        19
+      ],
+      "offset": [
+        -6.5,
+        -8
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-crnr-clmb-02",
+      "texture": "1co9nZbldJhbgrDsi+FqFe",
+      "rect": [
+        20,
+        8,
+        15,
+        24
+      ],
+      "offset": [
+        2.5,
+        -1.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "adventurer-run3-03",
+      "texture": "5aMxT+/A5BVrQ2Ax8TNycd",
+      "rect": [
+        13,
+        8,
+        27,
+        28
+      ],
+      "offset": [
+        1.5,
+        -3.5
+      ],
+      "originalSize": [
+        50,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
